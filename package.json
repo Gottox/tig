@@ -1,0 +1,34 @@
+{
+  "name": "tig",
+  "version": "0.0.0",
+  "description": "Sane wrapper around git for node js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint test lib && mocha"
+  },
+  "author": "Enno Boland <eb@s01.de>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "extend": "^2.0.0",
+    "which": "^1.0.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "mktemp": "^0.3.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gottox/tig.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "bugs": {
+    "url": "https://github.com/Gottox/tig/issues"
+  },
+  "homepage": "https://github.com/Gottox/tig"
+}
